@@ -3,7 +3,7 @@
 const fs = require('fs');
 
 // Read the file into a string
-const data = fs.readFileSync('../Codewars/adventCode/inputDay3.txt', 'utf8');
+const data = fs.readFileSync('../adventCode/2022/inputDay3.txt', 'utf8');
 
 // Split the string into an array by newline character
 const sacks = data.split('\n');
